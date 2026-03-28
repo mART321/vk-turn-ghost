@@ -1,6 +1,6 @@
-module github.com/cacggghp/vk-turn-proxy
+module github.com/mART321/vk-turn-ghost
 
-go 1.25.5
+go 1.26
 
 require (
 	github.com/cbeuw/connutil v1.0.1
