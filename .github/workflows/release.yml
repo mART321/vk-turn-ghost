@@ -82,7 +82,7 @@ jobs:
 
           SUFFIX="${GOOS}-${GOARCH}${GOARM:+v$GOARM}"
 
-          go build -ldflags "-s -w" -trimpath \
+          go build -ldflags "-s -w -checklinkname=0" -trimpath \
             -o "dist/vk-turn-client-${SUFFIX}${EXT}" \
             ./client
 
